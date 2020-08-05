@@ -17,7 +17,7 @@ public class Aritmatika {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int hasil, hasil2;
+        int hasil, hasil2, hasil3;
         Scanner inp = new Scanner(System.in);
         
         System.out.println("Masukkan angka pertama : ");
@@ -32,6 +32,10 @@ public class Aritmatika {
         hasil2 = angka1 - angka2;
         
         System.out.println("Hasil pengurangan adalah : "+hasil2);
+		
+		hasil3 = angka1 * angka2;
+        
+        System.out.println("Hasil perkalian adalah : "+hasil3);
         
         
     }
